@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                 int difference = Integer.parseInt(connection.getFrequency()) -
                         (int) ((date.getTime() / 86400000) - Long.parseLong(connection.getSetCount()));
                 // Send a reminder notification
-                if(difference <= 0) {
+                if(difference <= 0 && data.getString(2).equals("1")) {
                     String input = "Don't forget to connect with " + connection.getName() + " today";
                     Intent serviceIntent = new Intent(this, NotificationService.class);
                     serviceIntent.putExtra("inputExtra", input);
