@@ -11,6 +11,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
+/************************************************************
+ * Class: GroupAdd
+ * Function: Create new groups in the MainActivity.java class
+ * The group add class does not have the functionality to add groups
+ * within groups
+ ************************************************************/
 public class GroupAdd extends AppCompatActivity {
     DatabaseHelper myDB;
     Button finishButton, add2GroupButton;

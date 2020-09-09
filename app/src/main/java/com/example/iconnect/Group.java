@@ -16,6 +16,12 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 
+/************************************************************
+ * Class: Group
+ * Function: Display the people within the group selected from
+ * the MainActivity.java class. The group class can also add
+ * new connections to its group
+ ************************************************************/
 public class Group extends AppCompatActivity {
     DatabaseHelper myDB;
     DatabaseHelper1 myDB1;
@@ -29,7 +35,6 @@ public class Group extends AppCompatActivity {
     DatabaseHelper9 myDB9;
     DatabaseHelper10 myDB10;
     ListView listView2;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

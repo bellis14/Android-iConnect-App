@@ -11,6 +11,7 @@ import static com.example.iconnect.NotifyChannel.CHANNEL_ID;
 
 /************************************************************
  * Class: NotificationService
+ * Function: Send a notification to connect with a person
  ************************************************************/
 public class NotificationService extends Service {
     @Override

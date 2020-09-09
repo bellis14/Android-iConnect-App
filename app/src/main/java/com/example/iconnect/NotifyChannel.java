@@ -8,7 +8,7 @@ import android.os.Build;
 /************************************************************
  * Class: NotifyChannel
  * Function: Create a channel through which notifications
- * can be sent to the user of when the connect with a person
+ * can be sent to the user
  ************************************************************/
 public class NotifyChannel extends Application {
     public static final String CHANNEL_ID = "ServiceChannel";

@@ -12,6 +12,11 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import java.util.Date;
 
+/************************************************************
+ * Class: PersonAdd
+ * Function: Create a new person connection with a name,
+ * subtitle, contact frequency, and a note
+ ************************************************************/
 public class PersonAdd extends AppCompatActivity {
     DatabaseHelper myDB;
     DatabaseHelper1 myDB1;
