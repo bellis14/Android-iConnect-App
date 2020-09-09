@@ -1,7 +1,12 @@
 package com.example.iconnect;
 
 
-// Connection class: Collects the information about each person or group
+/************************************************************
+ * Class: Connection
+ * Function: Collect the information about each person or group
+ * while providing methods that give access to each person or groups
+ * information
+ ************************************************************/
 public class Connection {
     private String name;
     private String id;

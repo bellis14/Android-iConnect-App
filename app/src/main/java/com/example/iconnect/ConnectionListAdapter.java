@@ -10,7 +10,10 @@ import androidx.annotation.NonNull;
 import java.util.ArrayList;
 import java.util.Date;
 
-//Formats the information correctly in all list views used
+/************************************************************
+ * Class: ConnectionListAdapter
+ * Function: Format the information correctly in all list views used
+ ************************************************************/
 public class ConnectionListAdapter extends ArrayAdapter<Connection> {
 
     private static final String TAG = "ConnectionListAdapter";
