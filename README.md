@@ -15,13 +15,13 @@ Android Studio Setup Instructions: Go to the Android Studio official site at thi
 
 How to Launch an App from Android Studio: To launch your application in android studio you can either use a plug-in android device or a virtual device. To set up a virtual device click the green triangle button at the top of the screen. You may be taken directly to virtual device configuration screen where you will click the phone tab or you will be taken to the Android virtual device manager where you will click create virtual device. Once in the virtual device configuration screen and you have selected the phone tab you will select the pixel 2 option and select next. Select the release name R and click next and then finish on the next screen. After configuring the virtual device you should be able to test and run your app, but there is a chance that could get the following error "Intel HAXM is required to run this AVD.VT-x is disabled in BIOS. Enable VT-x in your BIOS security settings". To enable BIOS look up the instructions for your laptop/operating system. This link is helpful as well for enabling BIOS https://www.youtube.com/watch?v=mW_HNKiS3_8
 
-Helpful Links Used in Android Studio Development: 
-Adding multiple columns to your ListView three parts: https://www.youtube.com/watch?v=8K-6gdTlGEA&t=381s , https://www.youtube.com/watch?v=hHQqFGpod14 , https://www.youtube.com/watch?v=jpt3Md9aDIQ 
-How to Create Multiple Tables in SQL Lite Database in Android Studio: https://www.youtube.com/watch?v=lQIoxBq10xA&t=734s 
-Saving data with SQLite and adding it to a ListView: https://www.youtube.com/watch?v=SK98ayjhk1E 
-Android Listview Onitemclick Example: https://www.youtube.com/watch?v=wSCIuIbS-nk&t=578s 
-How to Pass data from One to another Activity || Android studio tutorial: https://www.youtube.com/watch?v=Yi8mxXsroJ4&t=169s 
-Custom ListView Adapter For Displaying Multiple Columns: https://www.youtube.com/watch?v=E6vE8fqQPTE 
-How to Remove the ActionBar from Specific Activities (Or All Activities): https://www.youtube.com/watch?v=A9rcKZUm0zM 
-Editing and deleting data from an SQLite database [Beginner Android Studio Example]: https://www.youtube.com/watch?v=nY2bYJyGty8
-How to Start a Foreground Service in Android (With Notification Channels): https://www.youtube.com/watch?v=FbpD5RZtbCc&t=1045s
+Helpful Links Used in Android Studio Development:
+* Adding multiple columns to your ListView three parts: https://www.youtube.com/watch?v=8K-6gdTlGEA&t=381s , https://www.youtube.com/watch?v=hHQqFGpod14 , https://www.youtube.com/watch?v=jpt3Md9aDIQ 
+* How to Create Multiple Tables in SQL Lite Database in Android Studio: https://www.youtube.com/watch?v=lQIoxBq10xA&t=734s 
+* Saving data with SQLite and adding it to a ListView: https://www.youtube.com/watch?v=SK98ayjhk1E 
+* Android Listview Onitemclick Example: https://www.youtube.com/watch?v=wSCIuIbS-nk&t=578s 
+* How to Pass data from One to another Activity || Android studio tutorial: https://www.youtube.com/watch?v=Yi8mxXsroJ4&t=169s 
+* Custom ListView Adapter For Displaying Multiple Columns: https://www.youtube.com/watch?v=E6vE8fqQPTE 
+* How to Remove the ActionBar from Specific Activities (Or All Activities): https://www.youtube.com/watch?v=A9rcKZUm0zM 
+* Editing and deleting data from an SQLite database [Beginner Android Studio Example]: https://www.youtube.com/watch?v=nY2bYJyGty8
+* How to Start a Foreground Service in Android (With Notification Channels): https://www.youtube.com/watch?v=FbpD5RZtbCc&t=1045s
