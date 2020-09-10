@@ -13,6 +13,10 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.util.ArrayList;
 import java.util.Date;
 
+/*************************************************************
+ * Class: Main Activity
+ * Function: Display and add the users most important connections
+ *************************************************************/
 public class MainActivity extends AppCompatActivity {
     DatabaseHelper myDB;
     ListView listView;

@@ -8,11 +8,11 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
-/************************************************************
- * Class: AddNewConnection
- * Function: Provide the user the option to create a new
- * person or group
- ************************************************************/
+/*************************************************************
+ * Class: Add New Connection
+ * Function: Take the user to either the GroupAdd.java or
+ * PeronAdd.java class
+ *************************************************************/
 public class AddNewConnection extends AppCompatActivity {
 
     @Override

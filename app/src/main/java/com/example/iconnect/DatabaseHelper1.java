@@ -6,11 +6,11 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-/************************************************************
- * Class: DatabaseHelper1
- * Function: Store information about each person in the first
- * group created
- ************************************************************/
+/*************************************************************
+ * Class: Database Helper1
+ * Function: Store the information associated with the people
+ * in the first group
+ *************************************************************/
 public class DatabaseHelper1 extends SQLiteOpenHelper {
 
     private static final String DATABASE_NAME = "personGroup1.db";

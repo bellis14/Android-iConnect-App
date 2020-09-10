@@ -11,6 +11,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
 import java.util.Date;
 
+/*************************************************************
+ * Class: Person
+ * Function: Display the information regarding the person selected
+ * in the Group.java or MainActivity.java classes
+ *************************************************************/
 public class Person extends AppCompatActivity {
     DatabaseHelper myDB;
     DatabaseHelper1 myDB1;
