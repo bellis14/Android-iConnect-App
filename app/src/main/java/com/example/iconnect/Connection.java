@@ -15,6 +15,8 @@ public class Connection {
     private String note;
     private String setCount;
 
+    //Making some changes
+
     //Non-default constructor
     public Connection(String name) {
        this.name = name;
