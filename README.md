@@ -4,6 +4,13 @@
 iConnect is a java based program developed using the Android Studio IDE that makes everyday life easier for people to stay connected with friends, family, professionals, and other acquaintances. The iConnect app provides users the ability to make connections made of groups and individuals with a notification sent to connect with the specified individual after so many days. The use of this application takes away the stress of remembering to stay in contact with those who are in your circle of friendship, allowing you to dedicate your time and energy to other important tasks. 
 
 ### iConnect in Action
+![](Images/MainActivityPic.png)
+![](Images/AddNewConnectionPic.png)
+![](Images/GroupAdd.png)
+![](Images/PersonAddPic.png)
+![](Images/groupActivityPic.png)
+![](Images/PersonPic.png)
+![](Images/NotificationPic.png)
 
 
 ### How it Works
