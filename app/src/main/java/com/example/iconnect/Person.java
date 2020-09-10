@@ -11,11 +11,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
 import java.util.Date;
 
-/************************************************************
- * Class: Person
- * Function: Display the information about the person selected
- * from the Group.java or MainActivity.java class
- ************************************************************/
 public class Person extends AppCompatActivity {
     DatabaseHelper myDB;
     DatabaseHelper1 myDB1;
@@ -165,7 +160,6 @@ public class Person extends AppCompatActivity {
         final int difference = Integer.parseInt(connectionList.get(location).getFrequency()) -
                 (int) ((date.getTime() / 86400000) - Long.parseLong(connectionList.get(location).getSetCount()));
 
-
         if (difference <= 0) {
             contactDays.setText("");
             todayTextView.setText("Today");
@@ -179,6 +173,7 @@ public class Person extends AppCompatActivity {
             contactDays.setText(Integer.toString(difference));
             daysToConnectTextView.setText("days to connect");
         }
+
 
         if(connectionList.get(location).getNote().equals("")) {
             noteTv.setText("");
