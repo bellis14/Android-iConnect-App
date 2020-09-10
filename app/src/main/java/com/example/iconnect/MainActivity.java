@@ -23,7 +23,7 @@ import java.util.Date;
 public class MainActivity extends AppCompatActivity {
     DatabaseHelper myDB;
     ListView listView;
-
+    //Making some changes here
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -136,3 +136,4 @@ public class MainActivity extends AppCompatActivity {
     }
 
 }
+
