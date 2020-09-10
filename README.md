@@ -10,7 +10,6 @@ iConnect is a java based program developed using the Android Studio IDE that mak
 ![](Images/PersonAddPic.png)
 ![](Images/groupActivityPic.png)
 ![](Images/PersonPic.png)
-Notification
 ![](Images/NotificationPic.png)
 
 
